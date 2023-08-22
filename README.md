@@ -1,1 +1,2 @@
-# DependencyInjection-.NET-Templates
+# .NET w/ Dependency Injection - Templates
+

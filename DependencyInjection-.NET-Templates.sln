@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp-net48", "ConsoleApp-.NET4.8\ConsoleApp-net48.csproj", "{5500B930-D95B-4839-BE8C-2519D00DEE5E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC7FEA36-8B65-45FC-99A4-5BD69AE9C192}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5500B930-D95B-4839-BE8C-2519D00DEE5E} = {BC7FEA36-8B65-45FC-99A4-5BD69AE9C192}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7734CB01-4E4C-4385-AEF4-D4813B9FEA2D}
